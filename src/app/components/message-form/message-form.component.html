@@ -1,0 +1,14 @@
+<div class="chatcontrol">
+  <input 
+    type="text"
+    class="form-control chatinput"
+    (keyup.enter)="sendMessage()" 
+    [(ngModel)]="message.content"
+    placeholder="Tapez votre message ..."
+  />
+  <button class="btn btn-info sendbtn" (click)="sendMessage()">
+    <!-- <img class=" sendimg" src="../../../assets/images/send.jpg"/> -->
+    <i class="fa fa-telegram"></i>
+  </button>
+  
+</div>

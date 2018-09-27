@@ -1,0 +1,28 @@
+.chatform {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.chathead {
+  width: 600px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: rgba($color: #eeeffe, $alpha: 1.0);
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+
+  .chathead-icon {
+    width: 20%;
+  }
+
+  .chathead-text {
+    width: 80%;
+    
+    
+    font-weight: bold;
+    // flex-flow: row wrap;
+    // text-align: center;
+  }
+}
