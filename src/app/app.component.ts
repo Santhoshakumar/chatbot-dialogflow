@@ -14,7 +14,7 @@ export class AppComponent {
   constructor() {
     this.message = new Message('', 'assets/images/user.png');
     this.messages = [
-      new Message('Bonjour Théophile, merci d\'avoir acheté une offre chez Orange. Je suis Eddy, je suis à votre service pour vous aider à suivre votre commande.', 'assets/images/eddy.png', new Date(), 'message', true)
+      new Message('Welcome to GKMS chat Application..!! How can i help You', 'assets/images/eddy.png', new Date(), 'message', true)
     ];
   }
 }
