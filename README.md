@@ -1,9 +1,9 @@
-# SmartBot
+# GKMS Bot
 
 ChatBot with Angular X & DialogFlow
 
 <p align="center">
-  <img src="screenshot.gif" width="70%"/>
+  <img src="screenshot.png" width="70%"/>
 </p>
 
 ## Run
